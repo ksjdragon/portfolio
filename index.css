@@ -1,0 +1,146 @@
+html, body {
+	width: 100%; height: 100%;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+}
+
+::selection {
+	background: #fd558f;
+}
+::-moz-selection {
+	background: #fd558f;
+}
+
+#bgWrap {
+	width: 100%; height: 100%;
+	position: absolute;
+	top: 0; left: 0;
+	background-color: #121212; 
+	z-index: -1;
+}
+
+#bgWrap div {
+	width: 100%; height: 100%;
+	position: absolute;
+	top: 0; left: 0;
+	background-color: white;
+}
+
+#mainWrap {
+	width: 100%; height: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+#name {
+	padding: 1%;
+	grid-column: 1;
+	margin: auto;
+}
+
+#name h1 {
+	font-size: 300%;
+	font-weight: 300;
+	margin: 0;
+}
+
+#name h5 {
+	color: #b3b3b3;
+	font-size: 100%;
+	font-weight: 400;
+	margin: 0;
+	text-align: right;
+}
+
+#tabs {
+	list-style: none;
+	margin: auto 0 auto 10%;
+	grid-column: 2;
+	height: 50%;
+	width: 60%;
+
+	display: grid;
+	grid-template-columns: 1fr 29fr;
+	grid-template-rows: repeat(9, 1fr);
+	grid-column-gap: 10%;
+}
+
+#tab1, label[for='tab1'] { grid-row: 4; grid-column: 1; }
+#tab2, label[for='tab2'] { grid-row: 5; grid-column: 1; }
+#tab3, label[for='tab3'] { grid-row: 6; grid-column: 1; }
+
+
+.tab:checked:nth-of-type(1) ~ .content:nth-of-type(1),
+.tab:checked:nth-of-type(2) ~ .content:nth-of-type(2),
+.tab:checked:nth-of-type(3) ~ .content:nth-of-type(3) {
+	opacity: 1;
+	position: relative;
+	-webkit-transition: 0.3s opacity ease-in, 0.3s -webkit-transform ease;
+  	transition: 0.3s opacity ease-in, 0.3s -webkit-transform ease;
+	transition: 0.3s opacity ease-in, 0.3s transform ease;
+	transition: 0.3s opacity ease-in, 0.3s transform ease, 0.3s -webkit-transform ease;
+	grid-column: 2;
+	grid-row: 1 / 10;
+	font-size: 200%;
+}
+
+.tab + label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	border: 1px solid white;
+	border-radius: 3px;
+	height: 0;
+    padding-top: calc(100% - 1px);
+    cursor: pointer;
+
+	-webkit-transition: background-color 0.15s cubic-bezier(.25, .8, .25, 1);
+	transition: background-color 0.15s cubic-bezier(.25, .8, .25, 1);
+	-moz-transition: background-color 0.15s cubic-bezier(.25, .8, .25, 1);
+	-ms-transition: background-color 0.15s cubic-bezier(.25, .8, .25, 1);
+}
+
+.tab + label:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tab:checked:nth-of-type(1) ~ label:nth-of-type(1),
+.tab:checked:nth-of-type(2) ~ label:nth-of-type(2),
+.tab:checked:nth-of-type(3) ~ label:nth-of-type(3) {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.content {
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	grid-row: 1 / 10;
+	z-index: -1;
+	padding: 10%;
+	
+}
+
+input[type='radio'] {
+	opacity: 0;
+	cursor: pointer;
+}
+
+.content h2 {
+	font-weight: 400;
+	font-size: 100%;
+	margin: 0;
+	text-shadow: 6px 6px #272727;
+}
+
+.content p {
+	margin-left: 2%;
+	text-align: justify;
+	font-weight: 300;
+	font-size: 50%;
+	color: #fefefe;
+
+}
