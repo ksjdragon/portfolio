@@ -1,3 +1,5 @@
+@media only screen and (min-width: 600px) {
+
 @keyframes s1 {
 	0% { -webkit-clip-path: polygon(2.0% 0, 2.1% 0, -8.0% 20%, -8.1% 20%); }
 	100% { -webkit-clip-path: polygon(2.0% 0, 2.1% 0, -8.5% 21%, -8.6% 21%); }
@@ -249,18 +251,18 @@
 }
 
 @keyframes s51 {
-	0% { -webkit-clip-path: polygon(3.0% 0, 3.1% 0, -8.5% 23%, -8.6% 23%); }
-	100% { -webkit-clip-path: polygon(3.0% 0, 3.1% 0, -9.0% 24%, -9.1% 24%); }
+	0% { -webkit-clip-path: polygon(3.0% 0, 3.1% 0, -9.0% 24%, -9.1% 24%); }
+	100% { -webkit-clip-path: polygon(3.0% 0, 3.1% 0, -9.5% 25%, -9.6% 25%); }
 }
 
 @keyframes s52 {
-	0% { -webkit-clip-path: polygon(7.35% 0, 7.45% 0, -6.15% 27%, -6.25% 27%); }
-	100% { -webkit-clip-path: polygon(7.35% 0, 7.45% 0, -6.65% 28%, -6.75% 28%); }
+	0% { -webkit-clip-path: polygon(7.35% 0, 7.45% 0, -5.65% 26%, -5.75% 26%); }
+	100% { -webkit-clip-path: polygon(7.35% 0, 7.45% 0, -6.15% 27%, -6.25% 27%); }
 }
 
 @keyframes s53 {
-	0% { -webkit-clip-path: polygon(11.7% 0, 11.8% 0, -2.8% 29%, -2.9% 29%); }
-	100% { -webkit-clip-path: polygon(11.7% 0, 11.8% 0, -3.3% 30%, -3.4% 30%); }
+	0% { -webkit-clip-path: polygon(11.7% 0, 11.8% 0, -1.8% 27%, -1.9% 27%); }
+	100% { -webkit-clip-path: polygon(11.7% 0, 11.8% 0, -2.3% 28%, -2.4% 28%); }
 }
 
 @keyframes s54 {
@@ -269,8 +271,8 @@
 }
 
 @keyframes s55 {
-	0% { -webkit-clip-path: polygon(20.39% 0, 20.49% 0, 6.89% 27%, 6.79% 27%); }
-	100% { -webkit-clip-path: polygon(20.39% 0, 20.49% 0, 6.39% 28%, 6.29% 28%); }
+	0% { -webkit-clip-path: polygon(20.39% 0, 20.49% 0, 7.89% 25%, 7.79% 25%); }
+	100% { -webkit-clip-path: polygon(20.39% 0, 20.49% 0, 7.39% 26%, 7.29% 26%); }
 }
 
 @keyframes s56 {
@@ -279,68 +281,68 @@
 }
 
 @keyframes s57 {
-	0% { -webkit-clip-path: polygon(29.09% 0, 29.19% 0, 17.59% 23%, 17.49% 23%); }
-	100% { -webkit-clip-path: polygon(29.09% 0, 29.19% 0, 17.09% 24%, 16.99% 24%); }
+	0% { -webkit-clip-path: polygon(29.09% 0, 29.19% 0, 18.09% 22%, 17.99% 22%); }
+	100% { -webkit-clip-path: polygon(29.09% 0, 29.19% 0, 17.59% 23%, 17.49% 23%); }
 }
 
 @keyframes s58 {
-	0% { -webkit-clip-path: polygon(33.43% 0, 33.53% 0, 22.93% 21%, 22.83% 21%); }
-	100% { -webkit-clip-path: polygon(33.43% 0, 33.53% 0, 22.43% 22%, 22.33% 22%); }
+	0% { -webkit-clip-path: polygon(33.43% 0, 33.53% 0, 23.43% 20%, 23.33% 20%); }
+	100% { -webkit-clip-path: polygon(33.43% 0, 33.53% 0, 22.93% 21%, 22.83% 21%); }
 }
 
 @keyframes s59 {
-	0% { -webkit-clip-path: polygon(37.78% 0, 37.88% 0, 27.78% 20%, 27.68% 20%); }
-	100% { -webkit-clip-path: polygon(37.78% 0, 37.88% 0, 27.28% 21%, 27.18% 21%); }
+	0% { -webkit-clip-path: polygon(37.78% 0, 37.88% 0, 27.28% 21%, 27.18% 21%); }
+	100% { -webkit-clip-path: polygon(37.78% 0, 37.88% 0, 26.78% 22%, 26.68% 22%); }
 }
 
 @keyframes s60 {
-	0% { -webkit-clip-path: polygon(42.13% 0, 42.23% 0, 31.63% 21%, 31.53% 21%); }
-	100% { -webkit-clip-path: polygon(42.13% 0, 42.23% 0, 31.13% 22%, 31.03% 22%); }
+	0% { -webkit-clip-path: polygon(42.13% 0, 42.23% 0, 30.63% 23%, 30.53% 23%); }
+	100% { -webkit-clip-path: polygon(42.13% 0, 42.23% 0, 30.13% 24%, 30.03% 24%); }
 }
 
 @keyframes s61 {
-	0% { -webkit-clip-path: polygon(46.48% 0, 46.58% 0, 34.98% 23%, 34.88% 23%); }
-	100% { -webkit-clip-path: polygon(46.48% 0, 46.58% 0, 34.48% 24%, 34.38% 24%); }
+	0% { -webkit-clip-path: polygon(46.48% 0, 46.58% 0, 34.48% 24%, 34.38% 24%); }
+	100% { -webkit-clip-path: polygon(46.48% 0, 46.58% 0, 33.98% 25%, 33.88% 25%); }
 }
 
 @keyframes s62 {
-	0% { -webkit-clip-path: polygon(50.83% 0, 50.93% 0, 37.83% 26%, 37.73% 26%); }
-	100% { -webkit-clip-path: polygon(50.83% 0, 50.93% 0, 37.33% 27%, 37.23% 27%); }
+	0% { -webkit-clip-path: polygon(50.83% 0, 50.93% 0, 37.33% 27%, 37.23% 27%); }
+	100% { -webkit-clip-path: polygon(50.83% 0, 50.93% 0, 36.83% 28%, 36.73% 28%); }
 }
 
 @keyframes s63 {
-	0% { -webkit-clip-path: polygon(55.17% 0, 55.27% 0, 41.67% 27%, 41.57% 27%); }
-	100% { -webkit-clip-path: polygon(55.17% 0, 55.27% 0, 41.17% 28%, 41.07% 28%); }
+	0% { -webkit-clip-path: polygon(55.17% 0, 55.27% 0, 41.17% 28%, 41.07% 28%); }
+	100% { -webkit-clip-path: polygon(55.17% 0, 55.27% 0, 40.67% 29%, 40.57% 29%); }
 }
 
 @keyframes s64 {
-	0% { -webkit-clip-path: polygon(59.52% 0, 59.62% 0, 45.02% 29%, 44.92% 29%); }
-	100% { -webkit-clip-path: polygon(59.52% 0, 59.62% 0, 44.52% 30%, 44.42% 30%); }
+	0% { -webkit-clip-path: polygon(59.52% 0, 59.62% 0, 46.02% 27%, 45.92% 27%); }
+	100% { -webkit-clip-path: polygon(59.52% 0, 59.62% 0, 45.52% 28%, 45.42% 28%); }
 }
 
 @keyframes s65 {
-	0% { -webkit-clip-path: polygon(63.87% 0, 63.97% 0, 50.37% 27%, 50.27% 27%); }
-	100% { -webkit-clip-path: polygon(63.87% 0, 63.97% 0, 49.87% 28%, 49.77% 28%); }
+	0% { -webkit-clip-path: polygon(63.87% 0, 63.97% 0, 50.87% 26%, 50.77% 26%); }
+	100% { -webkit-clip-path: polygon(63.87% 0, 63.97% 0, 50.37% 27%, 50.27% 27%); }
 }
 
 @keyframes s66 {
-	0% { -webkit-clip-path: polygon(68.22% 0, 68.32% 0, 56.22% 24%, 56.12% 24%); }
-	100% { -webkit-clip-path: polygon(68.22% 0, 68.32% 0, 55.72% 25%, 55.62% 25%); }
+	0% { -webkit-clip-path: polygon(68.22% 0, 68.32% 0, 55.72% 25%, 55.62% 25%); }
+	100% { -webkit-clip-path: polygon(68.22% 0, 68.32% 0, 55.22% 26%, 55.12% 26%); }
 }
 
 @keyframes s67 {
-	0% { -webkit-clip-path: polygon(72.57% 0, 72.67% 0, 61.07% 23%, 60.97% 23%); }
-	100% { -webkit-clip-path: polygon(72.57% 0, 72.67% 0, 60.57% 24%, 60.47% 24%); }
+	0% { -webkit-clip-path: polygon(72.57% 0, 72.67% 0, 61.57% 22%, 61.47% 22%); }
+	100% { -webkit-clip-path: polygon(72.57% 0, 72.67% 0, 61.07% 23%, 60.97% 23%); }
 }
 
 @keyframes s68 {
-	0% { -webkit-clip-path: polygon(76.91% 0, 77.01% 0, 66.91% 20%, 66.81% 20%); }
-	100% { -webkit-clip-path: polygon(76.91% 0, 77.01% 0, 66.41% 21%, 66.31% 21%); }
+	0% { -webkit-clip-path: polygon(76.91% 0, 77.01% 0, 66.41% 21%, 66.31% 21%); }
+	100% { -webkit-clip-path: polygon(76.91% 0, 77.01% 0, 65.91% 22%, 65.81% 22%); }
 }
 
 @keyframes s69 {
-	0% { -webkit-clip-path: polygon(81.26% 0, 81.36% 0, 71.26% 20%, 71.16% 20%); }
-	100% { -webkit-clip-path: polygon(81.26% 0, 81.36% 0, 70.76% 21%, 70.66% 21%); }
+	0% { -webkit-clip-path: polygon(81.26% 0, 81.36% 0, 71.76% 19%, 71.66% 19%); }
+	100% { -webkit-clip-path: polygon(81.26% 0, 81.36% 0, 71.26% 20%, 71.16% 20%); }
 }
 
 @keyframes s70 {
@@ -354,18 +356,18 @@
 }
 
 @keyframes s72 {
-	0% { -webkit-clip-path: polygon(94.3% 0, 94.4% 0, 81.8% 25%, 81.7% 25%); }
-	100% { -webkit-clip-path: polygon(94.3% 0, 94.4% 0, 81.3% 26%, 81.2% 26%); }
+	0% { -webkit-clip-path: polygon(94.3% 0, 94.4% 0, 81.3% 26%, 81.2% 26%); }
+	100% { -webkit-clip-path: polygon(94.3% 0, 94.4% 0, 80.8% 27%, 80.7% 27%); }
 }
 
 @keyframes s73 {
-	0% { -webkit-clip-path: polygon(98.65% 0, 98.75% 0, 84.15% 29%, 84.05% 29%); }
-	100% { -webkit-clip-path: polygon(98.65% 0, 98.75% 0, 83.65% 30%, 83.55% 30%); }
+	0% { -webkit-clip-path: polygon(98.65% 0, 98.75% 0, 85.15% 27%, 85.05% 27%); }
+	100% { -webkit-clip-path: polygon(98.65% 0, 98.75% 0, 84.65% 28%, 84.55% 28%); }
 }
 
 @keyframes s74 {
-	0% { -webkit-clip-path: polygon(103.0% 0, 103.1% 0, 89.0% 28%, 88.9% 28%); }
-	100% { -webkit-clip-path: polygon(103.0% 0, 103.1% 0, 88.5% 29%, 88.4% 29%); }
+	0% { -webkit-clip-path: polygon(103.0% 0, 103.1% 0, 89.5% 27%, 89.4% 27%); }
+	100% { -webkit-clip-path: polygon(103.0% 0, 103.1% 0, 89.0% 28%, 88.9% 28%); }
 }
 
 @keyframes s75 {
@@ -374,23 +376,23 @@
 }
 
 @keyframes s76 {
-	0% { -webkit-clip-path: polygon(-6.5% 100%, -6.4% 100%, 5.0% 77%, 4.9% 77%); }
-	100% { -webkit-clip-path: polygon(-6.5% 100%, -6.4% 100%, 5.5% 76%, 5.4% 76%); }
+	0% { -webkit-clip-path: polygon(-6.5% 100%, -6.4% 100%, 5.5% 76%, 5.4% 76%); }
+	100% { -webkit-clip-path: polygon(-6.5% 100%, -6.4% 100%, 6.0% 75%, 5.9% 75%); }
 }
 
 @keyframes s77 {
-	0% { -webkit-clip-path: polygon(-2.15% 100%, -2.05% 100%, 10.35% 75%, 10.25% 75%); }
-	100% { -webkit-clip-path: polygon(-2.15% 100%, -2.05% 100%, 10.85% 74%, 10.75% 74%); }
+	0% { -webkit-clip-path: polygon(-2.15% 100%, -2.05% 100%, 11.35% 73%, 11.25% 73%); }
+	100% { -webkit-clip-path: polygon(-2.15% 100%, -2.05% 100%, 11.85% 72%, 11.75% 72%); }
 }
 
 @keyframes s78 {
-	0% { -webkit-clip-path: polygon(2.2% 100%, 2.3% 100%, 16.7% 71%, 16.6% 71%); }
-	100% { -webkit-clip-path: polygon(2.2% 100%, 2.3% 100%, 17.2% 70%, 17.1% 70%); }
+	0% { -webkit-clip-path: polygon(2.2% 100%, 2.3% 100%, 16.2% 72%, 16.1% 72%); }
+	100% { -webkit-clip-path: polygon(2.2% 100%, 2.3% 100%, 16.7% 71%, 16.6% 71%); }
 }
 
 @keyframes s79 {
-	0% { -webkit-clip-path: polygon(6.54% 100%, 6.64% 100%, 20.04% 73%, 19.94% 73%); }
-	100% { -webkit-clip-path: polygon(6.54% 100%, 6.64% 100%, 20.54% 72%, 20.44% 72%); }
+	0% { -webkit-clip-path: polygon(6.54% 100%, 6.64% 100%, 20.54% 72%, 20.44% 72%); }
+	100% { -webkit-clip-path: polygon(6.54% 100%, 6.64% 100%, 21.04% 71%, 20.94% 71%); }
 }
 
 @keyframes s80 {
@@ -399,68 +401,68 @@
 }
 
 @keyframes s81 {
-	0% { -webkit-clip-path: polygon(15.24% 100%, 15.34% 100%, 26.74% 77%, 26.64% 77%); }
-	100% { -webkit-clip-path: polygon(15.24% 100%, 15.34% 100%, 27.24% 76%, 27.14% 76%); }
+	0% { -webkit-clip-path: polygon(15.24% 100%, 15.34% 100%, 27.24% 76%, 27.14% 76%); }
+	100% { -webkit-clip-path: polygon(15.24% 100%, 15.34% 100%, 27.74% 75%, 27.64% 75%); }
 }
 
 @keyframes s82 {
-	0% { -webkit-clip-path: polygon(19.59% 100%, 19.69% 100%, 31.09% 77%, 30.99% 77%); }
-	100% { -webkit-clip-path: polygon(19.59% 100%, 19.69% 100%, 31.59% 76%, 31.49% 76%); }
+	0% { -webkit-clip-path: polygon(19.59% 100%, 19.69% 100%, 30.59% 78%, 30.49% 78%); }
+	100% { -webkit-clip-path: polygon(19.59% 100%, 19.69% 100%, 31.09% 77%, 30.99% 77%); }
 }
 
 @keyframes s83 {
-	0% { -webkit-clip-path: polygon(23.93% 100%, 24.03% 100%, 33.43% 81%, 33.33% 81%); }
-	100% { -webkit-clip-path: polygon(23.93% 100%, 24.03% 100%, 33.93% 80%, 33.83% 80%); }
+	0% { -webkit-clip-path: polygon(23.93% 100%, 24.03% 100%, 34.43% 79%, 34.33% 79%); }
+	100% { -webkit-clip-path: polygon(23.93% 100%, 24.03% 100%, 34.93% 78%, 34.83% 78%); }
 }
 
 @keyframes s84 {
-	0% { -webkit-clip-path: polygon(28.28% 100%, 28.38% 100%, 37.78% 81%, 37.68% 81%); }
-	100% { -webkit-clip-path: polygon(28.28% 100%, 28.38% 100%, 38.28% 80%, 38.18% 80%); }
+	0% { -webkit-clip-path: polygon(28.28% 100%, 28.38% 100%, 38.28% 80%, 38.18% 80%); }
+	100% { -webkit-clip-path: polygon(28.28% 100%, 28.38% 100%, 38.78% 79%, 38.68% 79%); }
 }
 
 @keyframes s85 {
-	0% { -webkit-clip-path: polygon(32.63% 100%, 32.73% 100%, 43.63% 78%, 43.53% 78%); }
-	100% { -webkit-clip-path: polygon(32.63% 100%, 32.73% 100%, 44.13% 77%, 44.03% 77%); }
+	0% { -webkit-clip-path: polygon(32.63% 100%, 32.73% 100%, 43.13% 79%, 43.03% 79%); }
+	100% { -webkit-clip-path: polygon(32.63% 100%, 32.73% 100%, 43.63% 78%, 43.53% 78%); }
 }
 
 @keyframes s86 {
-	0% { -webkit-clip-path: polygon(36.98% 100%, 37.08% 100%, 49.48% 75%, 49.38% 75%); }
-	100% { -webkit-clip-path: polygon(36.98% 100%, 37.08% 100%, 49.98% 74%, 49.88% 74%); }
+	0% { -webkit-clip-path: polygon(36.98% 100%, 37.08% 100%, 48.98% 76%, 48.88% 76%); }
+	100% { -webkit-clip-path: polygon(36.98% 100%, 37.08% 100%, 49.48% 75%, 49.38% 75%); }
 }
 
 @keyframes s87 {
-	0% { -webkit-clip-path: polygon(41.33% 100%, 41.43% 100%, 54.33% 74%, 54.23% 74%); }
-	100% { -webkit-clip-path: polygon(41.33% 100%, 41.43% 100%, 54.83% 73%, 54.73% 73%); }
+	0% { -webkit-clip-path: polygon(41.33% 100%, 41.43% 100%, 54.83% 73%, 54.73% 73%); }
+	100% { -webkit-clip-path: polygon(41.33% 100%, 41.43% 100%, 55.33% 72%, 55.23% 72%); }
 }
 
 @keyframes s88 {
-	0% { -webkit-clip-path: polygon(45.67% 100%, 45.77% 100%, 59.17% 73%, 59.07% 73%); }
-	100% { -webkit-clip-path: polygon(45.67% 100%, 45.77% 100%, 59.67% 72%, 59.57% 72%); }
+	0% { -webkit-clip-path: polygon(45.67% 100%, 45.77% 100%, 59.67% 72%, 59.57% 72%); }
+	100% { -webkit-clip-path: polygon(45.67% 100%, 45.77% 100%, 60.17% 71%, 60.07% 71%); }
 }
 
 @keyframes s89 {
-	0% { -webkit-clip-path: polygon(50.02% 100%, 50.12% 100%, 64.52% 71%, 64.42% 71%); }
-	100% { -webkit-clip-path: polygon(50.02% 100%, 50.12% 100%, 65.02% 70%, 64.92% 70%); }
+	0% { -webkit-clip-path: polygon(50.02% 100%, 50.12% 100%, 64.02% 72%, 63.92% 72%); }
+	100% { -webkit-clip-path: polygon(50.02% 100%, 50.12% 100%, 64.52% 71%, 64.42% 71%); }
 }
 
 @keyframes s90 {
-	0% { -webkit-clip-path: polygon(54.37% 100%, 54.47% 100%, 67.87% 73%, 67.77% 73%); }
-	100% { -webkit-clip-path: polygon(54.37% 100%, 54.47% 100%, 68.37% 72%, 68.27% 72%); }
+	0% { -webkit-clip-path: polygon(54.37% 100%, 54.47% 100%, 67.37% 74%, 67.27% 74%); }
+	100% { -webkit-clip-path: polygon(54.37% 100%, 54.47% 100%, 67.87% 73%, 67.77% 73%); }
 }
 
 @keyframes s91 {
-	0% { -webkit-clip-path: polygon(58.72% 100%, 58.82% 100%, 71.22% 75%, 71.12% 75%); }
-	100% { -webkit-clip-path: polygon(58.72% 100%, 58.82% 100%, 71.72% 74%, 71.62% 74%); }
+	0% { -webkit-clip-path: polygon(58.72% 100%, 58.82% 100%, 70.72% 76%, 70.62% 76%); }
+	100% { -webkit-clip-path: polygon(58.72% 100%, 58.82% 100%, 71.22% 75%, 71.12% 75%); }
 }
 
 @keyframes s92 {
-	0% { -webkit-clip-path: polygon(63.07% 100%, 63.17% 100%, 74.07% 78%, 73.97% 78%); }
-	100% { -webkit-clip-path: polygon(63.07% 100%, 63.17% 100%, 74.57% 77%, 74.47% 77%); }
+	0% { -webkit-clip-path: polygon(63.07% 100%, 63.17% 100%, 73.57% 79%, 73.47% 79%); }
+	100% { -webkit-clip-path: polygon(63.07% 100%, 63.17% 100%, 74.07% 78%, 73.97% 78%); }
 }
 
 @keyframes s93 {
-	0% { -webkit-clip-path: polygon(67.41% 100%, 67.51% 100%, 77.91% 79%, 77.81% 79%); }
-	100% { -webkit-clip-path: polygon(67.41% 100%, 67.51% 100%, 78.41% 78%, 78.31% 78%); }
+	0% { -webkit-clip-path: polygon(67.41% 100%, 67.51% 100%, 77.41% 80%, 77.31% 80%); }
+	100% { -webkit-clip-path: polygon(67.41% 100%, 67.51% 100%, 77.91% 79%, 77.81% 79%); }
 }
 
 @keyframes s94 {
@@ -469,582 +471,632 @@
 }
 
 @keyframes s95 {
-	0% { -webkit-clip-path: polygon(76.11% 100%, 76.21% 100%, 87.61% 77%, 87.51% 77%); }
-	100% { -webkit-clip-path: polygon(76.11% 100%, 76.21% 100%, 88.11% 76%, 88.01% 76%); }
+	0% { -webkit-clip-path: polygon(76.11% 100%, 76.21% 100%, 87.11% 78%, 87.01% 78%); }
+	100% { -webkit-clip-path: polygon(76.11% 100%, 76.21% 100%, 87.61% 77%, 87.51% 77%); }
 }
 
 @keyframes s96 {
-	0% { -webkit-clip-path: polygon(80.46% 100%, 80.56% 100%, 92.46% 76%, 92.36% 76%); }
-	100% { -webkit-clip-path: polygon(80.46% 100%, 80.56% 100%, 92.96% 75%, 92.86% 75%); }
+	0% { -webkit-clip-path: polygon(80.46% 100%, 80.56% 100%, 92.96% 75%, 92.86% 75%); }
+	100% { -webkit-clip-path: polygon(80.46% 100%, 80.56% 100%, 93.46% 74%, 93.36% 74%); }
 }
 
 @keyframes s97 {
-	0% { -webkit-clip-path: polygon(84.8% 100%, 84.9% 100%, 98.3% 73%, 98.2% 73%); }
-	100% { -webkit-clip-path: polygon(84.8% 100%, 84.9% 100%, 98.8% 72%, 98.7% 72%); }
+	0% { -webkit-clip-path: polygon(84.8% 100%, 84.9% 100%, 97.3% 75%, 97.2% 75%); }
+	100% { -webkit-clip-path: polygon(84.8% 100%, 84.9% 100%, 97.8% 74%, 97.7% 74%); }
 }
 
 @keyframes s98 {
-	0% { -webkit-clip-path: polygon(89.15% 100%, 89.25% 100%, 102.65% 73%, 102.55% 73%); }
-	100% { -webkit-clip-path: polygon(89.15% 100%, 89.25% 100%, 103.15% 72%, 103.05% 72%); }
+	0% { -webkit-clip-path: polygon(89.15% 100%, 89.25% 100%, 103.15% 72%, 103.05% 72%); }
+	100% { -webkit-clip-path: polygon(89.15% 100%, 89.25% 100%, 103.65% 71%, 103.55% 71%); }
 }
 
 @keyframes s99 {
-	0% { -webkit-clip-path: polygon(93.5% 100%, 93.6% 100%, 107.0% 73%, 106.9% 73%); }
-	100% { -webkit-clip-path: polygon(93.5% 100%, 93.6% 100%, 107.5% 72%, 107.4% 72%); }
+	0% { -webkit-clip-path: polygon(93.5% 100%, 93.6% 100%, 108.0% 71%, 107.9% 71%); }
+	100% { -webkit-clip-path: polygon(93.5% 100%, 93.6% 100%, 108.5% 70%, 108.4% 70%); }
 }
 
 @keyframes s100 {
-	0% { -webkit-clip-path: polygon(97.85% 100%, 97.95% 100%, 110.85% 74%, 110.75% 74%); }
-	100% { -webkit-clip-path: polygon(97.85% 100%, 97.95% 100%, 111.35% 73%, 111.25% 73%); }
+	0% { -webkit-clip-path: polygon(97.85% 100%, 97.95% 100%, 110.35% 75%, 110.25% 75%); }
+	100% { -webkit-clip-path: polygon(97.85% 100%, 97.95% 100%, 110.85% 74%, 110.75% 74%); }
 }
 
 #bgWrap div:nth-child(1) {
-	animation: s1 ease-in-out 5s infinite alternate;
+	animation: s1 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(2.0% 0, 2.1% 0, -8.0% 20%, -8.1% 20%);
 }
 
 #bgWrap div:nth-child(2) {
-	animation: s2 ease-in-out 5s infinite alternate;
+	animation: s2 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(6.35% 0, 6.45% 0, -4.65% 22%, -4.75% 22%);
 }
 
 #bgWrap div:nth-child(3) {
-	animation: s3 ease-in-out 5s infinite alternate;
+	animation: s3 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(10.7% 0, 10.8% 0, -1.3% 24%, -1.4% 24%);
 }
 
 #bgWrap div:nth-child(4) {
-	animation: s4 ease-in-out 5s infinite alternate;
+	animation: s4 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(15.04% 0, 15.14% 0, 3.04% 24%, 2.94% 24%);
 }
 
 #bgWrap div:nth-child(5) {
-	animation: s5 ease-in-out 5s infinite alternate;
+	animation: s5 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(19.39% 0, 19.49% 0, 8.39% 22%, 8.29% 22%);
 }
 
 #bgWrap div:nth-child(6) {
-	animation: s6 ease-in-out 5s infinite alternate;
+	animation: s6 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(23.74% 0, 23.84% 0, 13.74% 20%, 13.64% 20%);
 }
 
 #bgWrap div:nth-child(7) {
-	animation: s7 ease-in-out 5s infinite alternate;
+	animation: s7 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(28.09% 0, 28.19% 0, 19.09% 18%, 18.99% 18%);
 }
 
 #bgWrap div:nth-child(8) {
-	animation: s8 ease-in-out 5s infinite alternate;
+	animation: s8 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(32.43% 0, 32.53% 0, 24.43% 16%, 24.33% 16%);
 }
 
 #bgWrap div:nth-child(9) {
-	animation: s9 ease-in-out 5s infinite alternate;
+	animation: s9 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(36.78% 0, 36.88% 0, 28.78% 16%, 28.68% 16%);
 }
 
 #bgWrap div:nth-child(10) {
-	animation: s10 ease-in-out 5s infinite alternate;
+	animation: s10 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(41.13% 0, 41.23% 0, 32.13% 18%, 32.03% 18%);
 }
 
 #bgWrap div:nth-child(11) {
-	animation: s11 ease-in-out 5s infinite alternate;
+	animation: s11 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(45.48% 0, 45.58% 0, 35.48% 20%, 35.38% 20%);
 }
 
 #bgWrap div:nth-child(12) {
-	animation: s12 ease-in-out 5s infinite alternate;
+	animation: s12 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(49.83% 0, 49.93% 0, 38.83% 22%, 38.73% 22%);
 }
 
 #bgWrap div:nth-child(13) {
-	animation: s13 ease-in-out 5s infinite alternate;
+	animation: s13 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(54.17% 0, 54.27% 0, 42.17% 24%, 42.07% 24%);
 }
 
 #bgWrap div:nth-child(14) {
-	animation: s14 ease-in-out 5s infinite alternate;
+	animation: s14 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(58.52% 0, 58.62% 0, 46.52% 24%, 46.42% 24%);
 }
 
 #bgWrap div:nth-child(15) {
-	animation: s15 ease-in-out 5s infinite alternate;
+	animation: s15 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(62.87% 0, 62.97% 0, 51.87% 22%, 51.77% 22%);
 }
 
 #bgWrap div:nth-child(16) {
-	animation: s16 ease-in-out 5s infinite alternate;
+	animation: s16 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(67.22% 0, 67.32% 0, 57.22% 20%, 57.12% 20%);
 }
 
 #bgWrap div:nth-child(17) {
-	animation: s17 ease-in-out 5s infinite alternate;
+	animation: s17 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(71.57% 0, 71.67% 0, 62.57% 18%, 62.47% 18%);
 }
 
 #bgWrap div:nth-child(18) {
-	animation: s18 ease-in-out 5s infinite alternate;
+	animation: s18 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(75.91% 0, 76.01% 0, 67.91% 16%, 67.81% 16%);
 }
 
 #bgWrap div:nth-child(19) {
-	animation: s19 ease-in-out 5s infinite alternate;
+	animation: s19 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(80.26% 0, 80.36% 0, 72.26% 16%, 72.16% 16%);
 }
 
 #bgWrap div:nth-child(20) {
-	animation: s20 ease-in-out 5s infinite alternate;
+	animation: s20 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(84.61% 0, 84.71% 0, 75.61% 18%, 75.51% 18%);
 }
 
 #bgWrap div:nth-child(21) {
-	animation: s21 ease-in-out 5s infinite alternate;
+	animation: s21 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(88.96% 0, 89.06% 0, 78.96% 20%, 78.86% 20%);
 }
 
 #bgWrap div:nth-child(22) {
-	animation: s22 ease-in-out 5s infinite alternate;
+	animation: s22 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(93.3% 0, 93.4% 0, 82.3% 22%, 82.2% 22%);
 }
 
 #bgWrap div:nth-child(23) {
-	animation: s23 ease-in-out 5s infinite alternate;
+	animation: s23 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(97.65% 0, 97.75% 0, 85.65% 24%, 85.55% 24%);
 }
 
 #bgWrap div:nth-child(24) {
-	animation: s24 ease-in-out 5s infinite alternate;
+	animation: s24 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(102.0% 0, 102.1% 0, 90.0% 24%, 89.9% 24%);
 }
 
 #bgWrap div:nth-child(25) {
-	animation: s25 ease-in-out 5s infinite alternate;
+	animation: s25 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(106.35% 0, 106.45% 0, 95.35% 22%, 95.25% 22%);
 }
 
 #bgWrap div:nth-child(26) {
-	animation: s26 ease-in-out 5s infinite alternate;
+	animation: s26 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(-9.5% 100%, -9.4% 100%, 0.5% 80%, 0.4% 80%);
 }
 
 #bgWrap div:nth-child(27) {
-	animation: s27 ease-in-out 5s infinite alternate;
+	animation: s27 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(-5.15% 100%, -5.05% 100%, 5.85% 78%, 5.75% 78%);
 }
 
 #bgWrap div:nth-child(28) {
-	animation: s28 ease-in-out 5s infinite alternate;
+	animation: s28 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(-0.8% 100%, -0.7% 100%, 11.2% 76%, 11.1% 76%);
 }
 
 #bgWrap div:nth-child(29) {
-	animation: s29 ease-in-out 5s infinite alternate;
+	animation: s29 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(3.54% 100%, 3.64% 100%, 15.54% 76%, 15.44% 76%);
 }
 
 #bgWrap div:nth-child(30) {
-	animation: s30 ease-in-out 5s infinite alternate;
+	animation: s30 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(7.89% 100%, 7.99% 100%, 18.89% 78%, 18.79% 78%);
 }
 
 #bgWrap div:nth-child(31) {
-	animation: s31 ease-in-out 5s infinite alternate;
+	animation: s31 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(12.24% 100%, 12.34% 100%, 22.24% 80%, 22.14% 80%);
 }
 
 #bgWrap div:nth-child(32) {
-	animation: s32 ease-in-out 5s infinite alternate;
+	animation: s32 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(16.59% 100%, 16.69% 100%, 25.59% 82%, 25.49% 82%);
 }
 
 #bgWrap div:nth-child(33) {
-	animation: s33 ease-in-out 5s infinite alternate;
+	animation: s33 ease-in-out 3s infinite alternate;
+	
 	-webkit-clip-path: polygon(20.93% 100%, 21.03% 100%, 28.93% 84%, 28.83% 84%);
 }
 
 #bgWrap div:nth-child(34) {
-	animation: s34 ease-in-out 5s infinite alternate;
+	animation: s34 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(25.28% 100%, 25.38% 100%, 33.28% 84%, 33.18% 84%);
 }
 
 #bgWrap div:nth-child(35) {
-	animation: s35 ease-in-out 5s infinite alternate;
+	animation: s35 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(29.63% 100%, 29.73% 100%, 38.63% 82%, 38.53% 82%);
 }
 
 #bgWrap div:nth-child(36) {
-	animation: s36 ease-in-out 5s infinite alternate;
+	animation: s36 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(33.98% 100%, 34.08% 100%, 43.98% 80%, 43.88% 80%);
 }
 
 #bgWrap div:nth-child(37) {
-	animation: s37 ease-in-out 5s infinite alternate;
+	animation: s37 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(38.33% 100%, 38.43% 100%, 49.33% 78%, 49.23% 78%);
 }
 
 #bgWrap div:nth-child(38) {
-	animation: s38 ease-in-out 5s infinite alternate;
+	animation: s38 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(42.67% 100%, 42.77% 100%, 54.67% 76%, 54.57% 76%);
 }
 
 #bgWrap div:nth-child(39) {
-	animation: s39 ease-in-out 5s infinite alternate;
+	animation: s39 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(47.02% 100%, 47.12% 100%, 59.02% 76%, 58.92% 76%);
 }
 
 #bgWrap div:nth-child(40) {
-	animation: s40 ease-in-out 5s infinite alternate;
+	animation: s40 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(51.37% 100%, 51.47% 100%, 62.37% 78%, 62.27% 78%);
 }
 
 #bgWrap div:nth-child(41) {
-	animation: s41 ease-in-out 5s infinite alternate;
+	animation: s41 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(55.72% 100%, 55.82% 100%, 65.72% 80%, 65.62% 80%);
 }
 
 #bgWrap div:nth-child(42) {
-	animation: s42 ease-in-out 5s infinite alternate;
+	animation: s42 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(60.07% 100%, 60.17% 100%, 69.07% 82%, 68.97% 82%);
 }
 
 #bgWrap div:nth-child(43) {
-	animation: s43 ease-in-out 5s infinite alternate;
+	animation: s43 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(64.41% 100%, 64.51% 100%, 72.41% 84%, 72.31% 84%);
 }
 
 #bgWrap div:nth-child(44) {
-	animation: s44 ease-in-out 5s infinite alternate;
+	animation: s44 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(68.76% 100%, 68.86% 100%, 76.76% 84%, 76.66% 84%);
 }
 
 #bgWrap div:nth-child(45) {
-	animation: s45 ease-in-out 5s infinite alternate;
+	animation: s45 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(73.11% 100%, 73.21% 100%, 82.11% 82%, 82.01% 82%);
 }
 
 #bgWrap div:nth-child(46) {
-	animation: s46 ease-in-out 5s infinite alternate;
+	animation: s46 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(77.46% 100%, 77.56% 100%, 87.46% 80%, 87.36% 80%);
 }
 
 #bgWrap div:nth-child(47) {
-	animation: s47 ease-in-out 5s infinite alternate;
+	animation: s47 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(81.8% 100%, 81.9% 100%, 92.8% 78%, 92.7% 78%);
 }
 
 #bgWrap div:nth-child(48) {
-	animation: s48 ease-in-out 5s infinite alternate;
+	animation: s48 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(86.15% 100%, 86.25% 100%, 98.15% 76%, 98.05% 76%);
 }
 
 #bgWrap div:nth-child(49) {
-	animation: s49 ease-in-out 5s infinite alternate;
+	animation: s49 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(90.5% 100%, 90.6% 100%, 102.5% 76%, 102.4% 76%);
 }
 
 #bgWrap div:nth-child(50) {
-	animation: s50 ease-in-out 5s infinite alternate;
+	animation: s50 ease-in-out 3s infinite alternate;
+	background-color: #272727;
 	-webkit-clip-path: polygon(94.85% 100%, 94.95% 100%, 105.85% 78%, 105.75% 78%);
 }
 
 #bgWrap div:nth-child(51) {
-	animation: s51 ease-in-out 5s infinite alternate;
+	animation: s51 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(3.0% 0, 3.1% 0, -8.5% 23%, -8.6% 23%);
+	-webkit-clip-path: polygon(3.0% 0, 3.1% 0, -9.0% 24%, -9.1% 24%);
 }
 
 #bgWrap div:nth-child(52) {
-	animation: s52 ease-in-out 5s infinite alternate;
+	animation: s52 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(7.35% 0, 7.45% 0, -6.15% 27%, -6.25% 27%);
+	-webkit-clip-path: polygon(7.35% 0, 7.45% 0, -5.65% 26%, -5.75% 26%);
 }
 
 #bgWrap div:nth-child(53) {
-	animation: s53 ease-in-out 5s infinite alternate;
+	animation: s53 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(11.7% 0, 11.8% 0, -2.8% 29%, -2.9% 29%);
+	-webkit-clip-path: polygon(11.7% 0, 11.8% 0, -1.8% 27%, -1.9% 27%);
 }
 
 #bgWrap div:nth-child(54) {
-	animation: s54 ease-in-out 5s infinite alternate;
+	animation: s54 ease-in-out 3s infinite alternate;
 	background-color: #272727;
 	-webkit-clip-path: polygon(16.04% 0, 16.14% 0, 1.54% 29%, 1.44% 29%);
 }
 
 #bgWrap div:nth-child(55) {
-	animation: s55 ease-in-out 5s infinite alternate;
+	animation: s55 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(20.39% 0, 20.49% 0, 6.89% 27%, 6.79% 27%);
+	-webkit-clip-path: polygon(20.39% 0, 20.49% 0, 7.89% 25%, 7.79% 25%);
 }
 
 #bgWrap div:nth-child(56) {
-	animation: s56 ease-in-out 5s infinite alternate;
+	animation: s56 ease-in-out 3s infinite alternate;
 	background-color: #272727;
 	-webkit-clip-path: polygon(24.74% 0, 24.84% 0, 13.24% 23%, 13.14% 23%);
 }
 
 #bgWrap div:nth-child(57) {
-	animation: s57 ease-in-out 5s infinite alternate;
+	animation: s57 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(29.09% 0, 29.19% 0, 17.59% 23%, 17.49% 23%);
+	-webkit-clip-path: polygon(29.09% 0, 29.19% 0, 18.09% 22%, 17.99% 22%);
 }
 
 #bgWrap div:nth-child(58) {
-	animation: s58 ease-in-out 5s infinite alternate;
+	animation: s58 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(33.43% 0, 33.53% 0, 22.93% 21%, 22.83% 21%);
+	-webkit-clip-path: polygon(33.43% 0, 33.53% 0, 23.43% 20%, 23.33% 20%);
 }
 
 #bgWrap div:nth-child(59) {
-	animation: s59 ease-in-out 5s infinite alternate;
+	animation: s59 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(37.78% 0, 37.88% 0, 27.78% 20%, 27.68% 20%);
+	-webkit-clip-path: polygon(37.78% 0, 37.88% 0, 27.28% 21%, 27.18% 21%);
 }
 
 #bgWrap div:nth-child(60) {
-	animation: s60 ease-in-out 5s infinite alternate;
+	animation: s60 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(42.13% 0, 42.23% 0, 31.63% 21%, 31.53% 21%);
+	-webkit-clip-path: polygon(42.13% 0, 42.23% 0, 30.63% 23%, 30.53% 23%);
 }
 
 #bgWrap div:nth-child(61) {
-	animation: s61 ease-in-out 5s infinite alternate;
+	animation: s61 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(46.48% 0, 46.58% 0, 34.98% 23%, 34.88% 23%);
+	-webkit-clip-path: polygon(46.48% 0, 46.58% 0, 34.48% 24%, 34.38% 24%);
 }
 
 #bgWrap div:nth-child(62) {
-	animation: s62 ease-in-out 5s infinite alternate;
+	animation: s62 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(50.83% 0, 50.93% 0, 37.83% 26%, 37.73% 26%);
+	-webkit-clip-path: polygon(50.83% 0, 50.93% 0, 37.33% 27%, 37.23% 27%);
 }
 
 #bgWrap div:nth-child(63) {
-	animation: s63 ease-in-out 5s infinite alternate;
+	animation: s63 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(55.17% 0, 55.27% 0, 41.67% 27%, 41.57% 27%);
+	-webkit-clip-path: polygon(55.17% 0, 55.27% 0, 41.17% 28%, 41.07% 28%);
 }
 
 #bgWrap div:nth-child(64) {
-	animation: s64 ease-in-out 5s infinite alternate;
+	animation: s64 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(59.52% 0, 59.62% 0, 45.02% 29%, 44.92% 29%);
+	-webkit-clip-path: polygon(59.52% 0, 59.62% 0, 46.02% 27%, 45.92% 27%);
 }
 
 #bgWrap div:nth-child(65) {
-	animation: s65 ease-in-out 5s infinite alternate;
+	animation: s65 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(63.87% 0, 63.97% 0, 50.37% 27%, 50.27% 27%);
+	-webkit-clip-path: polygon(63.87% 0, 63.97% 0, 50.87% 26%, 50.77% 26%);
 }
 
 #bgWrap div:nth-child(66) {
-	animation: s66 ease-in-out 5s infinite alternate;
+	animation: s66 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(68.22% 0, 68.32% 0, 56.22% 24%, 56.12% 24%);
+	-webkit-clip-path: polygon(68.22% 0, 68.32% 0, 55.72% 25%, 55.62% 25%);
 }
 
 #bgWrap div:nth-child(67) {
-	animation: s67 ease-in-out 5s infinite alternate;
+	animation: s67 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(72.57% 0, 72.67% 0, 61.07% 23%, 60.97% 23%);
+	-webkit-clip-path: polygon(72.57% 0, 72.67% 0, 61.57% 22%, 61.47% 22%);
 }
 
 #bgWrap div:nth-child(68) {
-	animation: s68 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(76.91% 0, 77.01% 0, 66.91% 20%, 66.81% 20%);
+	animation: s68 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(76.91% 0, 77.01% 0, 66.41% 21%, 66.31% 21%);
 }
 
 #bgWrap div:nth-child(69) {
-	animation: s69 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(81.26% 0, 81.36% 0, 71.26% 20%, 71.16% 20%);
+	animation: s69 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(81.26% 0, 81.36% 0, 71.76% 19%, 71.66% 19%);
 }
 
 #bgWrap div:nth-child(70) {
-	animation: s70 ease-in-out 5s infinite alternate;
-	background-color: #272727;
+	animation: s70 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
 	-webkit-clip-path: polygon(85.61% 0, 85.71% 0, 74.11% 23%, 74.01% 23%);
 }
 
 #bgWrap div:nth-child(71) {
-	animation: s71 ease-in-out 5s infinite alternate;
-	background-color: #272727;
+	animation: s71 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
 	-webkit-clip-path: polygon(89.96% 0, 90.06% 0, 77.96% 24%, 77.86% 24%);
 }
 
 #bgWrap div:nth-child(72) {
-	animation: s72 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(94.3% 0, 94.4% 0, 81.8% 25%, 81.7% 25%);
+	animation: s72 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(94.3% 0, 94.4% 0, 81.3% 26%, 81.2% 26%);
 }
 
 #bgWrap div:nth-child(73) {
-	animation: s73 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(98.65% 0, 98.75% 0, 84.15% 29%, 84.05% 29%);
+	animation: s73 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(98.65% 0, 98.75% 0, 85.15% 27%, 85.05% 27%);
 }
 
 #bgWrap div:nth-child(74) {
-	animation: s74 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(103.0% 0, 103.1% 0, 89.0% 28%, 88.9% 28%);
+	animation: s74 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(103.0% 0, 103.1% 0, 89.5% 27%, 89.4% 27%);
 }
 
 #bgWrap div:nth-child(75) {
-	animation: s75 ease-in-out 5s infinite alternate;
-	background-color: #272727;
+	animation: s75 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
 	-webkit-clip-path: polygon(107.35% 0, 107.45% 0, 94.85% 25%, 94.75% 25%);
 }
 
 #bgWrap div:nth-child(76) {
-	animation: s76 ease-in-out 5s infinite alternate;
+	animation: s76 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(-6.5% 100%, -6.4% 100%, 5.0% 77%, 4.9% 77%);
+	-webkit-clip-path: polygon(-6.5% 100%, -6.4% 100%, 5.5% 76%, 5.4% 76%);
 }
 
 #bgWrap div:nth-child(77) {
-	animation: s77 ease-in-out 5s infinite alternate;
+	animation: s77 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(-2.15% 100%, -2.05% 100%, 10.35% 75%, 10.25% 75%);
+	-webkit-clip-path: polygon(-2.15% 100%, -2.05% 100%, 11.35% 73%, 11.25% 73%);
 }
 
 #bgWrap div:nth-child(78) {
-	animation: s78 ease-in-out 5s infinite alternate;
+	animation: s78 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(2.2% 100%, 2.3% 100%, 16.7% 71%, 16.6% 71%);
+	-webkit-clip-path: polygon(2.2% 100%, 2.3% 100%, 16.2% 72%, 16.1% 72%);
 }
 
 #bgWrap div:nth-child(79) {
-	animation: s79 ease-in-out 5s infinite alternate;
+	animation: s79 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(6.54% 100%, 6.64% 100%, 20.04% 73%, 19.94% 73%);
+	-webkit-clip-path: polygon(6.54% 100%, 6.64% 100%, 20.54% 72%, 20.44% 72%);
 }
 
 #bgWrap div:nth-child(80) {
-	animation: s80 ease-in-out 5s infinite alternate;
+	animation: s80 ease-in-out 3s infinite alternate;
 	background-color: #272727;
 	-webkit-clip-path: polygon(10.89% 100%, 10.99% 100%, 23.39% 75%, 23.29% 75%);
 }
 
 #bgWrap div:nth-child(81) {
-	animation: s81 ease-in-out 5s infinite alternate;
+	animation: s81 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(15.24% 100%, 15.34% 100%, 26.74% 77%, 26.64% 77%);
+	-webkit-clip-path: polygon(15.24% 100%, 15.34% 100%, 27.24% 76%, 27.14% 76%);
 }
 
 #bgWrap div:nth-child(82) {
-	animation: s82 ease-in-out 5s infinite alternate;
+	animation: s82 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(19.59% 100%, 19.69% 100%, 31.09% 77%, 30.99% 77%);
+	-webkit-clip-path: polygon(19.59% 100%, 19.69% 100%, 30.59% 78%, 30.49% 78%);
 }
 
 #bgWrap div:nth-child(83) {
-	animation: s83 ease-in-out 5s infinite alternate;
+	animation: s83 ease-in-out 3s infinite alternate;
 	background-color: #272727;
-	-webkit-clip-path: polygon(23.93% 100%, 24.03% 100%, 33.43% 81%, 33.33% 81%);
+	-webkit-clip-path: polygon(23.93% 100%, 24.03% 100%, 34.43% 79%, 34.33% 79%);
 }
 
 #bgWrap div:nth-child(84) {
-	animation: s84 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(28.28% 100%, 28.38% 100%, 37.78% 81%, 37.68% 81%);
+	animation: s84 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(28.28% 100%, 28.38% 100%, 38.28% 80%, 38.18% 80%);
 }
 
 #bgWrap div:nth-child(85) {
-	animation: s85 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(32.63% 100%, 32.73% 100%, 43.63% 78%, 43.53% 78%);
+	animation: s85 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(32.63% 100%, 32.73% 100%, 43.13% 79%, 43.03% 79%);
 }
 
 #bgWrap div:nth-child(86) {
-	animation: s86 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(36.98% 100%, 37.08% 100%, 49.48% 75%, 49.38% 75%);
+	animation: s86 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(36.98% 100%, 37.08% 100%, 48.98% 76%, 48.88% 76%);
 }
 
 #bgWrap div:nth-child(87) {
-	animation: s87 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(41.33% 100%, 41.43% 100%, 54.33% 74%, 54.23% 74%);
+	animation: s87 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(41.33% 100%, 41.43% 100%, 54.83% 73%, 54.73% 73%);
 }
 
 #bgWrap div:nth-child(88) {
-	animation: s88 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(45.67% 100%, 45.77% 100%, 59.17% 73%, 59.07% 73%);
+	animation: s88 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(45.67% 100%, 45.77% 100%, 59.67% 72%, 59.57% 72%);
 }
 
 #bgWrap div:nth-child(89) {
-	animation: s89 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(50.02% 100%, 50.12% 100%, 64.52% 71%, 64.42% 71%);
+	animation: s89 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(50.02% 100%, 50.12% 100%, 64.02% 72%, 63.92% 72%);
 }
 
 #bgWrap div:nth-child(90) {
-	animation: s90 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(54.37% 100%, 54.47% 100%, 67.87% 73%, 67.77% 73%);
+	animation: s90 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(54.37% 100%, 54.47% 100%, 67.37% 74%, 67.27% 74%);
 }
 
 #bgWrap div:nth-child(91) {
-	animation: s91 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(58.72% 100%, 58.82% 100%, 71.22% 75%, 71.12% 75%);
+	animation: s91 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(58.72% 100%, 58.82% 100%, 70.72% 76%, 70.62% 76%);
 }
 
 #bgWrap div:nth-child(92) {
-	animation: s92 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(63.07% 100%, 63.17% 100%, 74.07% 78%, 73.97% 78%);
+	animation: s92 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(63.07% 100%, 63.17% 100%, 73.57% 79%, 73.47% 79%);
 }
 
 #bgWrap div:nth-child(93) {
-	animation: s93 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(67.41% 100%, 67.51% 100%, 77.91% 79%, 77.81% 79%);
+	animation: s93 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(67.41% 100%, 67.51% 100%, 77.41% 80%, 77.31% 80%);
 }
 
 #bgWrap div:nth-child(94) {
-	animation: s94 ease-in-out 5s infinite alternate;
-	background-color: #272727;
+	animation: s94 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
 	-webkit-clip-path: polygon(71.76% 100%, 71.86% 100%, 82.26% 79%, 82.16% 79%);
 }
 
 #bgWrap div:nth-child(95) {
-	animation: s95 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(76.11% 100%, 76.21% 100%, 87.61% 77%, 87.51% 77%);
+	animation: s95 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(76.11% 100%, 76.21% 100%, 87.11% 78%, 87.01% 78%);
 }
 
 #bgWrap div:nth-child(96) {
-	animation: s96 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(80.46% 100%, 80.56% 100%, 92.46% 76%, 92.36% 76%);
+	animation: s96 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(80.46% 100%, 80.56% 100%, 92.96% 75%, 92.86% 75%);
 }
 
 #bgWrap div:nth-child(97) {
-	animation: s97 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(84.8% 100%, 84.9% 100%, 98.3% 73%, 98.2% 73%);
+	animation: s97 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(84.8% 100%, 84.9% 100%, 97.3% 75%, 97.2% 75%);
 }
 
 #bgWrap div:nth-child(98) {
-	animation: s98 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(89.15% 100%, 89.25% 100%, 102.65% 73%, 102.55% 73%);
+	animation: s98 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(89.15% 100%, 89.25% 100%, 103.15% 72%, 103.05% 72%);
 }
 
 #bgWrap div:nth-child(99) {
-	animation: s99 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(93.5% 100%, 93.6% 100%, 107.0% 73%, 106.9% 73%);
+	animation: s99 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(93.5% 100%, 93.6% 100%, 108.0% 71%, 107.9% 71%);
 }
 
 #bgWrap div:nth-child(100) {
-	animation: s100 ease-in-out 5s infinite alternate;
-	background-color: #272727;
-	-webkit-clip-path: polygon(97.85% 100%, 97.95% 100%, 110.85% 74%, 110.75% 74%);
+	animation: s100 ease-in-out 3s infinite alternate;
+	background-color: #b5b5b5;
+	-webkit-clip-path: polygon(97.85% 100%, 97.95% 100%, 110.35% 75%, 110.25% 75%);
 }
-
+}

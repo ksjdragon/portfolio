@@ -50,10 +50,14 @@ def main():
 		initial.append(p0)
 
 	for i in range(4*n):	# Animations
-		if i in range(50,100):
-			f.write(f'#bgWrap div:nth-child({i+1}) {{\n\tanimation: s{i+1} ease-in-out 5s infinite alternate;\n\tbackground-color: #272727;\n\t{initial[i]}\n}}\n\n')
-		else:
-			f.write(f'#bgWrap div:nth-child({i+1}) {{\n\tanimation: s{i+1} ease-in-out 5s infinite alternate;\n\t{initial[i]}\n}}\n\n')
+		f.write(f'#bgWrap div:nth-child({i+1}) {{\n\tanimation: s{i+1} ease-in-out 3s infinite alternate;\n\t')
+		if i in range(17, 25): f.write(f'background-color: #272727;')
+		if i in range(33, 50): f.write(f'background-color: #272727;')
+		if i in range(50, 67): f.write(f'background-color: #272727;')
+		if i in range(67, 75): f.write(f'background-color: #b5b5b5;')
+		if i in range(75, 83): f.write(f'background-color: #272727;')
+		if i in range(83, 100): f.write(f'background-color: #b5b5b5;')
+		f.write(f'\n\t{initial[i]}\n}}\n\n')
 
 
 if __name__ == "__main__":
