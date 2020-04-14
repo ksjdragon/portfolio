@@ -17,7 +17,7 @@ def main():
 		initial.append(p0)
 
 	for i in range(n):	# Bottom Light
-		t, b = round(100*i/(n-2) - 9.5, 2) , round(4*math.sin((1/5)*math.pi*i) + 20)
+		t, b = round(100*i/(n-2) - 8, 2) , round(4*math.sin((1/5)*math.pi*i) + 20)
 		r = round(t + (1/2)*b, 2)
 		r2 = round(t + (1/2)*(b+1), 2)
 
@@ -39,7 +39,7 @@ def main():
 		initial.append(p0)
 
 	for i in range(n):	# Bottom Dark
-		t, b = round(100*i/(n-2) - 6.5, 2) , round(4*math.sin((1/5)*math.pi*i) + 20 + random.randint(3, 5))
+		t, b = round(100*i/(n-2) - 5, 2) , round(4*math.sin((1/5)*math.pi*i) + 20 + random.randint(3, 5))
 		r = round(t + (1/2)*b, 2)
 		r2 = round(t + (1/2)*(b+1), 2)
 
@@ -51,12 +51,12 @@ def main():
 
 	for i in range(4*n):	# Animations
 		f.write(f'#bgWrap div:nth-child({i+1}) {{\n\tanimation: s{i+1} ease-in-out 3s infinite alternate;\n\t')
-		if i in range(17, 25): f.write(f'background-color: #272727;')
-		if i in range(33, 50): f.write(f'background-color: #272727;')
+		if i in range(16, 25): f.write(f'background-color: #272727;')
+		if i in range(32, 50): f.write(f'background-color: #272727;')
 		if i in range(50, 67): f.write(f'background-color: #272727;')
-		if i in range(67, 75): f.write(f'background-color: #b5b5b5;')
-		if i in range(75, 83): f.write(f'background-color: #272727;')
-		if i in range(83, 100): f.write(f'background-color: #b5b5b5;')
+		if i in range(66, 75): f.write(f'background-color: #b5b5b5;')
+		if i in range(75, 81): f.write(f'background-color: #272727;')
+		if i in range(81, 100): f.write(f'background-color: #b5b5b5;')
 		f.write(f'\n\t{initial[i]}\n}}\n\n')
 
 
