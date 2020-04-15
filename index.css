@@ -69,7 +69,6 @@ a:hover {
 	font-size: 300%;
 	font-weight: 300;
 	margin: 0;
-
 }
 
 #name h5 {
@@ -203,10 +202,9 @@ input[type='radio'] {
 		display: block;
 	}
 
-
-	#name {
-		margin: 10%;
-	}
+	#name { margin: 10%; }
+	#name h1 { text-align: center; }
+	#name h5 { text-align: center; }
 
 	#tabs {
 		height: auto; width: 80%;
