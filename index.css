@@ -185,7 +185,7 @@ input[type='radio'] {
 
 	#bgWrap div:nth-child(101) {
 		display: block;
-		clip-path: polygon(0 25%, 100% 25%, 100% 100%, 0 100%);
+		clip-path: polygon(0 25%, 50% 30%, 100% 25%, 100% 100%, 0 100%);
 		background-color: #e6e6df;
 		z-index: -1;
 	}
