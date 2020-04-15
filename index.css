@@ -87,6 +87,7 @@ a:hover {
 	color: black;
 	z-index: 1;
 
+
 	display: grid;
 	grid-template-columns: 1fr 29fr;
 	grid-template-rows: repeat(9, 1fr);
@@ -183,17 +184,17 @@ input[type='radio'] {
 	}
 
 	#bgWrap div:nth-child(101) {
-		clip-path: polygon(0 40%, 100% 30%, 100% 100%, 0 100%);
+		display: block;
+		clip-path: polygon(0 25%, 100% 25%, 100% 100%, 0 100%);
 		background-color: #e6e6df;
 		z-index: -1;
-		display: block;
 	}
 
 	#mainWrap {
 		width: 100%; height: 100%;
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 2fr;
+		grid-template-rows: 1fr 3fr;
 	}
 
 	#bgWrap {
