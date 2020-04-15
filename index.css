@@ -207,12 +207,14 @@ input[type='radio'] {
 	#name h5 { text-align: center; }
 
 	#tabs {
-		height: auto; width: 80%;
+		height: 80%; width: 80%;
 		position: relative;
 		top: 10%;
 	}
 
 	.content {
-		grid-row: 1 / 10;
+		padding: 0;
 	}
+
+
 }
