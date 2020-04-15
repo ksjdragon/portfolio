@@ -11,8 +11,8 @@ def main():
 		l = round(t - (1/2)*b, 2)
 		l2 = round(t - (1/2)*(b+1), 2)
 
-		p0 = f'-webkit-clip-path: polygon({t}% 0, {round(t+0.1, 2)}% 0, {l}% {b}%, {round(l-0.1, 2)}% {b}%);'
-		p1 = f'-webkit-clip-path: polygon({t}% 0, {round(t+0.1, 2)}% 0, {l2}% {b+1}%, {round(l2-0.1, 2)}% {b+1}%);'
+		p0 = f'clip-path: polygon({t}% 0, {round(t+0.1, 2)}% 0, {l}% {b}%, {round(l-0.1, 2)}% {b}%);'
+		p1 = f'clip-path: polygon({t}% 0, {round(t+0.1, 2)}% 0, {l2}% {b+1}%, {round(l2-0.1, 2)}% {b+1}%);'
 		f.write(f'@keyframes s{i+1} {{\n\t0% {{ {p0} }}\n\t100% {{ {p1} }}\n}}\n\n')
 		initial.append(p0)
 
@@ -21,8 +21,8 @@ def main():
 		r = round(t + (1/2)*b, 2)
 		r2 = round(t + (1/2)*(b+1), 2)
 
-		p0 = f'-webkit-clip-path: polygon({t}% 100%, {round(t+0.1, 2)}% 100%, {r}% {100-b}%, {round(r-0.1, 2)}% {100-b}%);'
-		p1 = f'-webkit-clip-path: polygon({t}% 100%, {round(t+0.1, 2)}% 100%, {r2}% {99-b}%, {round(r2-0.1, 2)}% {99-b}%);'
+		p0 = f'clip-path: polygon({t}% 100%, {round(t+0.1, 2)}% 100%, {r}% {100-b}%, {round(r-0.1, 2)}% {100-b}%);'
+		p1 = f'clip-path: polygon({t}% 100%, {round(t+0.1, 2)}% 100%, {r2}% {99-b}%, {round(r2-0.1, 2)}% {99-b}%);'
 
 		f.write(f'@keyframes s{i+n+1} {{\n\t0% {{ {p0} }}\n\t100% {{ {p1} }}\n}}\n\n')
 		initial.append(p0)
@@ -32,8 +32,8 @@ def main():
 		l = round(t - (1/2)*b, 2)
 		l2 = round(t - (1/2)*(b+1), 2)
 
-		p0 = f'-webkit-clip-path: polygon({t}% 0, {round(t+0.1, 2)}% 0, {l}% {b}%, {round(l-0.1, 2)}% {b}%);'
-		p1 = f'-webkit-clip-path: polygon({t}% 0, {round(t+0.1, 2)}% 0, {l2}% {b+1}%, {round(l2-0.1, 2)}% {b+1}%);'
+		p0 = f'clip-path: polygon({t}% 0, {round(t+0.1, 2)}% 0, {l}% {b}%, {round(l-0.1, 2)}% {b}%);'
+		p1 = f'clip-path: polygon({t}% 0, {round(t+0.1, 2)}% 0, {l2}% {b+1}%, {round(l2-0.1, 2)}% {b+1}%);'
 		
 		f.write(f'@keyframes s{i+2*n+1} {{\n\t0% {{ {p0} }}\n\t100% {{ {p1} }}\n}}\n\n')
 		initial.append(p0)
@@ -43,8 +43,8 @@ def main():
 		r = round(t + (1/2)*b, 2)
 		r2 = round(t + (1/2)*(b+1), 2)
 
-		p0 = f'-webkit-clip-path: polygon({t}% 100%, {round(t+0.1, 2)}% 100%, {r}% {100-b}%, {round(r-0.1, 2)}% {100-b}%);'
-		p1 = f'-webkit-clip-path: polygon({t}% 100%, {round(t+0.1, 2)}% 100%, {r2}% {99-b}%, {round(r2-0.1, 2)}% {99-b}%);'
+		p0 = f'clip-path: polygon({t}% 100%, {round(t+0.1, 2)}% 100%, {r}% {100-b}%, {round(r-0.1, 2)}% {100-b}%);'
+		p1 = f'clip-path: polygon({t}% 100%, {round(t+0.1, 2)}% 100%, {r2}% {99-b}%, {round(r2-0.1, 2)}% {99-b}%);'
 
 		f.write(f'@keyframes s{i+3*n+1} {{\n\t0% {{ {p0} }}\n\t100% {{ {p1} }}\n}}\n\n')
 		initial.append(p0)

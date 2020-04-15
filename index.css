@@ -3,6 +3,7 @@ html, body {
 	margin: 0;
 	font-family: 'Quicksand', sans-serif;
 	color: white;
+	z-index: -1;
 }
 
 ::selection {
@@ -32,7 +33,7 @@ a:hover {
 	position: absolute;
 	top: 0; left: 0;
 	background-color: #121212; 
-	z-index: -1;
+	z-index: 0;
 }
 
 #bgWrap div {
@@ -43,7 +44,7 @@ a:hover {
 }
 
 #bgWrap div:nth-child(101) {
-	-webkit-clip-path: polygon(70% 0, 100% 0, 100% 100%, 20% 100%);
+	clip-path: polygon(70% 0, 100% 0, 100% 100%, 20% 100%);
 	background-color: #e6e6df;
 	z-index: -1;
 }
@@ -59,6 +60,7 @@ a:hover {
 	padding: 1%;
 	grid-column: 1;
 	margin: auto;
+	z-index: 3;
 }
 
 #name h1 {
@@ -83,6 +85,7 @@ a:hover {
 	height: 50%;
 	width: 60%;
 	color: black;
+	z-index: 1;
 
 	display: grid;
 	grid-template-columns: 1fr 29fr;
@@ -155,10 +158,14 @@ input[type='radio'] {
 }
 
 .content h2 {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 100%;
 	margin: 0;
-	text-shadow: 6px 6px #b5b5b5;
+}
+
+.content h2 u {
+	text-decoration: none;
+	border-bottom: 1px solid black;
 }
 
 .content p {
@@ -176,7 +183,7 @@ input[type='radio'] {
 	}
 
 	#bgWrap div:nth-child(101) {
-		-webkit-clip-path: polygon(0 40%, 100% 30%, 100% 100%, 0 100%);
+		clip-path: polygon(0 40%, 100% 30%, 100% 100%, 0 100%);
 		background-color: #e6e6df;
 		z-index: -1;
 		display: block;
