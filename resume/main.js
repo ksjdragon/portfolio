@@ -49,7 +49,7 @@ var mainContInfo = [
 		values: [
 			{
 				name: "Michigan State University, East Lansing",
-				caption: "Majoring in Computational Mathematics, Mathematics. Minoring in Computer Science",
+				caption: "Majoring in Computational Mathematics, Mathematics.\nMinoring in Computer Science",
 				date: "2018-2022",
 				desc: "Cumulative GPA: 3.91"
 			}
