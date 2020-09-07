@@ -112,8 +112,12 @@ h3 {
 	padding-left: 5%;
 }
 
+#mainCont .midCont {
+	font-size: 80%;
+}
+
 #mainCont .midCont .subsection {
-	padding: 0 10% 5% 10%;
+	padding: 0 10% 2% 10%;
 	display: grid;
 	grid-template-columns: 1fr 9fr;
 	grid-template-rows: 1fr;

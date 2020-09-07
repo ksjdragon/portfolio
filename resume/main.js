@@ -34,9 +34,9 @@ var sidebarInfo = [
 		name: "Social",
 		subsections: [
 			{
-				name: "Facebook",
-				value: "https://goo.gl/5rxxhH",
-				icon: "fab fa-facebook-f"
+				name: "GitHub",
+				value: "https://github.com/ksjdragon",
+				icon: "fab fa-github"
 			}
 		]
 	}
@@ -95,25 +95,25 @@ var mainContInfo = [
 				date: "2016",
 				desc: "Arm tracking done through gyroscope IMUs, with 9 degrees of freedom. A testing game was created to demonstrate tracking capabilities." 
 			},
-			{
+/*			{
 				name: "Haptic Feedback Through Wave Interference",
 				caption: "Mathematical investigation of applications of wave interference",
 				date: "2017",
 				desc: "A mathematical proof and experimentation of controllable wave interference to induce correct superposition. Explored multiple applications including a possibility of simulating highly accurate haptic feedback." 
 			},
-			{
+*/			{
 				name: "BinBin",
 				caption: "Cloud storage web interface application",
 				date: "2016",
 				desc: "Cloud database web app created to ease file downloading and storage for servers, with accounts and sharing systems." 
 			},
-			{
+/*			{
 				name: "Hourglass",
 				caption: "Collaborative school-wide online planner",
 				date: "2017",
 				desc: "Online planning web app designed for academic use. Enabled users to have a collaborative planner specific to individual classes and teachers. " 
 			}
-
+*/
 		]
 	}
 ];
