@@ -74,7 +74,7 @@ var mainContInfo = [
 				name: "Undergraduate Learning Assistant (ULA)",
 				caption: "Assistant to the professor (10 hours per week)",
 				date: "Fall 2021",
-				desc: "For the class 'CMSE/MTH 314 Matrix Algebra with Computational Applications', I aided in facilliating an interactive classroom, alongside grading assignments and hosting office hours."
+				desc: "For the class 'CMSE/MTH 314 Matrix Algebra with Computational Applications', I aided in facilitating an interactive classroom, alongside grading assignments and hosting office hours."
 			},
 			{
 				name: "Undergraduate Researcher in Mathematics",
