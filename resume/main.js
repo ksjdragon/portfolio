@@ -37,6 +37,11 @@ var sidebarInfo = [
 				name: "GitHub",
 				value: "https://github.com/ksjdragon",
 				icon: "fab fa-github"
+			},
+			{
+				name: "LinkedIn",
+				value: "https://linkedin.com/in/kjao",
+				icon: "fab fa-linkedin"
 			}
 		]
 	}
@@ -48,11 +53,36 @@ var mainContInfo = [
 		icon: "fa-book-open",
 		values: [
 			{
-				name: "Michigan State University, East Lansing",
+				name: "Michigan State University (MSU), East Lansing",
 				caption: "Majoring in Computational Mathematics, Mathematics.\nMinoring in Computer Science",
 				date: "2018-2022",
-				desc: "Cumulative GPA: 3.91"
+				desc: "Cumulative GPA: 3.9401"
+			},
+			{
+				name: "Dean's List",
+				caption: "Michigan State University",
+				date: "2018-2021",
+				desc: "Cumulative GPA higher than 3.5 for the year. Achieved for 3 years."
 			}
+		]
+	},
+	{
+		name: "Work Experience",
+		icon: "fa-briefcase",
+		values: [
+			{
+				name: "Undergraduate Learning Assistant (ULA)",
+				caption: "Assistant to the professor (10 hours per week)",
+				date: "Fall 2021",
+				desc: "For the class 'CMSE/MTH 314 Matrix Algebra with Computational Applications', I aided in facilliating an interactive classroom, alongside grading assignments and hosting office hours."
+			},
+			{
+				name: "Undergraduate Researcher in Mathematics",
+				caption: "Researched with Keith Promislow, chairperson of the Mathematics Department at MSU.",
+				date: "2021-2022",
+				desc: "Conducted theoretical mathematical research into soft packing problems, modeling with Partial Differential Equations.\n Wrote programs for all of the numerical simulations and analysis, along with a Python package. [https://github.com/ksjdragon/squish]"
+			}
+
 		]
 	},
 	{
@@ -63,55 +93,54 @@ var mainContInfo = [
 				name: "Programming",
 				caption: "Software engineering",
 				date: "Since 2014",
-				desc: "Fluent in HTML, CSS, JavaScript, Python, C, C++. Can pick up languages and libraries with ease. Full-stack web app developer, experience in bash scripting, and deep learning." 
+				desc: "Fluent in Python, C, C++, HTML, CSS, and JavaScript. Can pick up languages and libraries with ease. Full-stack web app developer, experience in bash scripting, and deep learning."
 			},
 			{
 				name: "System Administrator",
 				caption: "Server setup and maintenance.",
 				date: "Since 2014",
 				desc: "Proficient in maintaining and configuring up servers, and organizing network systems. Can secure implementations of server applications with industry standard cybersecurity."
-			},
-			{
-				name: "User Interface Design",
-				caption: "Interface, logo, and background design",
-				date: "Since 2012",
-				desc: "Proficient with GIMP and Blender for front-end web interfaces" 
-			}
-		]
+			}		]
 	},
 	{
 		name: "Projects",
 		icon: "fa-list-ol",
 		values: [
 			{
-				name: "Video Compression Research",
-				caption: "Compression through multi-dimensional transform analysis.",
-				date: "Since 2018",
-				desc: "Personal research into new compression techniques through extended applications of wave transforms, spatial and temporal data rearrangement, and component analysis."
+				name: "Google FooBar Challenge",
+				caption: "Coding challenge hosted by Google.",
+				date: "Summer 2020",
+				desc: "Completed all 5 levels of Google Foobar challenge."
+			},
+			{
+				name: "Virtual Synthesizer",
+				caption: "Designed custom synthesizer programs for self-use in music production",
+				date: "Fall 2020",
+				desc: "Using signal processing concepts and studying historical circuits, recreated virtual synthesizers."
 			},
 			{
 				name: "VR Arm Tracking Device",
 				caption: "Virtual reality hardware development",
 				date: "2016",
-				desc: "Arm tracking done through gyroscope IMUs, with 9 degrees of freedom. A testing game was created to demonstrate tracking capabilities." 
+				desc: "Arm tracking done through gyroscope IMUs, with 9 degrees of freedom. A testing game was created to demonstrate tracking capabilities."
 			},
 			{
 				name: "Haptic Feedback Through Wave Interference",
 				caption: "Mathematical investigation of applications of wave interference",
 				date: "2017",
-				desc: "A mathematical proof and experimentation of controllable wave interference to induce correct superposition. Explored multiple applications including a possibility of simulating highly accurate haptic feedback." 
+				desc: "Investigated more complex haptic feedback through wave interference using linear resonant actuators."
 			},
 			{
-				name: "BinBin",
-				caption: "Cloud storage web interface application",
+				name: "Cloud Storage Web Application",
+				caption: "Server side programming and account management with file security",
 				date: "2016",
-				desc: "Cloud database web app created to ease file downloading and storage for servers, with accounts and sharing systems." 
+				desc: "Cloud database web app created to ease file downloading and storage for servers, with accounts and sharing systems. [https://github.com/ksjdragon/binbin]"
 			},
 			{
-				name: "Hourglass",
-				caption: "Collaborative school-wide online planner",
+				name: "Collaborative Online Planner",
+				caption: "Database management and responsive and reactive web design",
 				date: "2017",
-				desc: "Online planning web app designed for academic use. Enabled users to have a collaborative planner specific to individual classes and teachers. " 
+				desc: "Online planning web app designed for academic use. Enabled users to have a collaborative planner specific to individual classes and teachers. [https://github.com/ksjdragon/hourglass]"
 			}
 
 		]
@@ -142,7 +171,7 @@ function mainItems() {
 			subValue.appendChild(el("h3", item.date, "", ""));
 			subValue.appendChild(el("h3", item.name, "", ""));
 			subValue.appendChild(el("h3", item.caption, "", ""));
-			subValue.appendChild(el("h3", item.desc, "", "")); 
+			subValue.appendChild(el("h3", item.desc, "", ""));
 			subsection.appendChild(subValue);
 		});
 		mainMid.appendChild(subsection);
@@ -164,7 +193,7 @@ function sidebarItems() {
 				});
 			} else {
 				subValue.appendChild(el("h3", item.value, "", ""));
-			} 
+			}
 			subsection.appendChild(subValue);
 		});
 		sidebarMid.appendChild(subsection);

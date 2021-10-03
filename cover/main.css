@@ -25,6 +25,17 @@ h3 {
 	font-weight: 300;
 }
 
+p, li {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+    font-size: 140%;
+    margin: 0 10% 0 10%;
+}
+
+ul {
+	list-style-type: circle;
+}
+
 #wrapper {
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -59,12 +70,12 @@ h3 {
 
 #mainCont .topCont h1 {
 	padding: 13% 0 0 10%;
-	font-size: 220%;
+	font-size: 300%;
 }
 
 #mainCont .topCont h2 {
 	padding: 0 0 0 10%;
-	font-size: 75%;
+	font-size: 95%;
 	color: #939393;
 }
 
@@ -113,12 +124,8 @@ h3 {
 }
 
 #mainCont .midCont {
-	font-size: 50%;
+	font-size: 80%;
 }
-
- #sidebar .midCont {
- 	font-size: 80%;
- }
 
 #mainCont .midCont .subsection {
 	padding: 0 10% 2% 10%;
@@ -135,13 +142,13 @@ h3 {
 	width: 4vw;
 	height: 4vw;
 	border: 3px solid #1F1F1F;
-	border-radius: 50px	
+	border-radius: 50px
 }
 
 .subCircle i {
 	margin: auto;
 	color: #1F1F1F;
-	font-size: 140%;
+	font-size: 120%;
 }
 
 #mainCont .midCont .subsection h2 {
@@ -194,6 +201,6 @@ h3 {
 }
 
 @media print {
-	
+
 	.subsection div{ page-break-before: always; }
 }
