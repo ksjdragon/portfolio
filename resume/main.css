@@ -213,7 +213,3 @@ atcolor: #1F1F1F;
 	grid-column: 2;
 	font-style: normal;
 }
-
-@media print {
-	.subsection div{ page-break-before: always; }
-}
