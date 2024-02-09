@@ -56,7 +56,7 @@ var mainContInfo = [
                 name: "University of Illinois Urbana-Champaign (UIUC), Champaign",
                 caption: "MS in Electrical Engineering",
                 date: "2022-2024",
-                desc: "Cumulative GPA: 3.94"
+                desc: "Cumulative GPA: 3.94, Expected Graduation: May 2024."
             },
             {
                 name: "Defects and frustration in the packing of soft balls",
